@@ -65,6 +65,25 @@ header{
     padding: 20px;
 }
 
+
+.info-input {
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.message{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 150px;
+}
+
 /* footer */
 
 .teal-div {
