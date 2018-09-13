@@ -7,91 +7,102 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+
   <link rel="stylesheet" href="Assets/CSS/style.css">
   <title>Document</title>
 </head>
 
 <body>
   <!-- Nav Bar w/name & nav buttons -->
-  <nav class="navbar">
-    <div class="container header">
-      <div class="col-md-3">
-        <h2 class="name">Ben deLong</h2>
-      </div>
-      <div class="col-md-5"></div>
-      <!-- Nav Buttons -->
-      <div class="col-md-4">
-        <a class="btn btn-secondary" href="index.html" role="button">About</a>
-        <a class="btn btn-secondary" href="portfolio.html" role="button">Portfolio</a>
-        <a class="btn btn-secondary" href="contact.html" role="button">Contact</a>
+  <header>
+    <div class="container nav-cont">
+      <div class="row nav-cont">
+        <div class="col-md-3">
+          <h1 class="name text-center">Ben deLong</h1>
+        </div>
+        <div class="col-md-5"></div>
+        <div class="col-md-4">
+          <nav class="navbar">
+            <a class="btn btn-secondary" href="index.html" role="button">About Me</a>
+            <a class="btn btn-secondary" href="portfolio.html" role="button">Portfolio</a>
+            <a class="btn btn-secondary" href="contact.html" role="button">Contact</a>
+          </nav>
+        </div>
       </div>
     </div>
-  </nav>
+  </header>
+
+
   <!-- Content Area -->
-  <div class="container bg-info">
+  <div class="container content-area">
     <div class="row">
       <div class="col-md-12">
-        <h1>Portfolio</h1>
+        <h1 class="section-title">Portfolio</h1>
       </div>
     </div>
     <!-- hangman and rpg row -->
-    <div class="row">
-      <div class="col-md-4">
-        <img src="Assets/Images/Hangman.jpg" alt="Hangman Game" class="img-fluid img-responsive">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="bg-info text-center">Hangman</h3>
+    <div class="container article">
+      <div class="row">
+        <div class="col-md-4 img-row">
+          <img src="Assets/Images/Hangman.jpg" alt="Hangman Game" class="img-fluid thumbnail">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="thumb-title text-center">Hangman</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <img src="Assets/Images/RPG Game.jpg" alt="RPG Game" class="img-fluid img-responsive">
-        <div class="col-md-12">
-          <h3 class="bg-info text-center">RPG</h3>
-        </div>
-      </div>
-      <div class="col-md-4"></div>
-    </div>
-    <!-- trivia and widget row -->
-    <div class="row">
-      <div class="col-md-4">
-        <img src="Assets/Images/Trivia Game.jpg" alt="Trivia Game" class="img-fluid img-responsive">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="bg-info text-center">Trivia</h3>
+        <div class="col-md-4 img-row">
+          <img src="Assets/Images/RPG Game.jpg" alt="RPG Game" class="img-fluid thumbnail">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="thumb-title text-center">RPG</h3>
+            </div>
           </div>
         </div>
+        <div class="col-md-4"></div>
       </div>
-      <div class="col-md-4">
-        <img src="Assets/Images/Widget.png" alt="Widger" class="img-fluid img-responsive">
-        <div class="col-md-12">
-          <h3 class="bg-info text-center">Rutgers Info Widget</h3>
-        </div>
-      </div>
-      <div class="col-md-4"></div>
-    </div>
-    <!-- RPS row -->
-    <div class="row">
-      <div class="col-md-4">
-        <img src="Assets/Images/Rock Paper Scissors.png" alt="Rock Paper Scissors" class="img-fluid img-responsive">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="bg-info text-center">Rock Paper Scissors</h3>
+      <!-- trivia and widget row -->
+      <div class="row">
+        <div class="col-md-4 img-row">
+          <img src="Assets/Images/Trivia Game.jpg" alt="Trivia Game" class="img-fluid thumbnail">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="thumb-title text-center">Trivia</h3>
+            </div>
           </div>
         </div>
+        <div class="col-md-4 img-row">
+          <img src="Assets/Images/Widget.png" alt="Widger" class="img-fluid thumbnail">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="thumb-title text-center">Rutgers Info Widget</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
       </div>
-      <div class="col-md-4"></div>
+      <!-- RPS row -->
+      <div class="row">
+        <div class="col-md-4 img-row">
+          <img src="Assets/Images/Rock Paper Scissors.png" alt="Rock Paper Scissors" class="img-fluid thumbnail">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="thumb-title text-center">Rock Paper Scissors</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
     </div>
-    <div class="col-md-4"></div>
-  </div>
   </div>
 
   <!-- footer -->
   <div class="sticky-footer">
-      <!-- teal divider -->
-      <div class="teal-div"></div>
-      <!-- grey w/ copyright -->
-      <footer><span>Copyright &copy;</span></footer>
+    <!-- teal divider -->
+    <div class="teal-div"></div>
+    <!-- grey w/ copyright -->
+    <footer><span>Copyright &copy;</span></footer>
   </div>
 </body>
 
