@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+      height: 100%;
+  }
+
 body{
     background-image: url("../Images/connectwork.png");
+    height: 100%;
 }
 
 /* Header and Nav bar styling */
@@ -29,19 +39,28 @@ header{
 .content-area{
     margin-top: 60px;
 }
+.wrapper{
+    min-height: 100%;
+}
+
+.about-me{
+    margin-top: 15px;
+}
 
 .section-title{
     border-bottom: 2px solid lightgray;
-    margin: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     padding-top: 20px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .article{
-    padding: 40px 20px;
+    padding: 20px;
     background-color: darkslategray;
     color:whitesmoke;
+    overflow: auto;
 }
 
 /* Portfolio Page */
@@ -60,40 +79,32 @@ header{
     bottom: 60px;
 }
 
-/* .img-row{
-    margin: 10px;
-    padding: 20px;
-} */
-
-
 .info-input {
-    width: 800px;
     margin-top: 10px;
-    margin-left: 100px;
 }
 
 .message{
     margin-top: 10px;
-    margin-left: 100px;
-    width: 800px;
 }
 
 .submit {
     margin-top: 20px;
-    margin-left: 100px;
-    width: 150px;
+}
+
+form{
+    overflow: auto;
 }
 
 /* footer */
 
 .teal-div {
-     margin-top: 60px;
      background-color: #4aaaa5;
      height: 10px;
      width: 100%;
  }
 
-footer{
+.sticky-footer{
+    margin-top: 40px;
     background-color: grey;
     height: 60px;
     width: 100%;
